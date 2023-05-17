@@ -1,0 +1,33 @@
+.nav-cont{
+    display: flex;
+    background-color: white;
+    color: blueviolet;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 10px;
+    padding: 5px 20px;
+}
+
+.nav-cont img{
+    height: 50px;
+}
+
+#nav{
+    width: 100%;
+    font-weight: bolder;
+    height: 3rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+
+#nav ul{
+    min-width: 50%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+li a{
+    text-decoration: none;
+}

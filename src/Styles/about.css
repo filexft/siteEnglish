@@ -1,0 +1,8 @@
+.about
+{   
+    background: url("../assets/about.png") no-repeat;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}

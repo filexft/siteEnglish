@@ -1,0 +1,50 @@
+
+.vid-cont
+{   
+    background: url("../assets/bgb.jpg") no-repeat;
+    object-fit: cover;
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+
+.cta-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.cta-cont p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color:  black;
+}
+.cta
+{
+    padding: 0.6em 1em;
+    border: 4px solid #fa725a;
+    transition: ease-in-out 0.3s;
+    background-color: transparent;
+    color: #fa725a;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.cta:hover {
+    transform: scale(1.2) rotate(10deg);
+    background-color: #fa725a;
+    color: white;
+}
+
+section{
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    padding: 0 4rem;
+}
+
+section:nth-child(even){
+    background-color: aqua;
+}
